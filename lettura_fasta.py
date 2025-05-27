@@ -1,7 +1,7 @@
 # lettura_fasta.py
 
-def leggi_fasta(nome_file):
-    with open(nome_file, 'r') as f:
+def leggi_fasta("esempio1.fasta"):
+    with open("esempio1.fasta" ) as f:
         righe = f.readlines()
 
     intestazione = righe[0].strip()
